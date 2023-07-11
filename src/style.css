@@ -1,0 +1,28 @@
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/089/346/original/Clocks.JPG?1689097170");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 75%;
+  background-color: #464646;
+  margin: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  border-radius: 10px;
+  margin: 25px auto;
+  text-align: center;
+  max-width: 900px;
+  padding: 20px;
+}
+
+#city {
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  padding: 6px;
+}
