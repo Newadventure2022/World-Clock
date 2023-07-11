@@ -10,10 +10,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script
         src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
-
+    <link href="src/style.css" rel="stylesheet" type="text/css" />
 
 <body>
-
+    <div class="container">
+        <form action="/submit">
+            <select id="city">
+                <option value="">Select a City </option>
+                <option value="Europe/Paris">Paris 🇫🇷</option>
+                <option value="Asia/Tokyo">Tokyo 🇯🇵</option>
+                <option value="Australia/Sydney">Sydney 🇦🇺</option>
+            </select>
+        </form>
+    </div>
+    <script src="src/code.js"></script>
 </body>
 
 </html>
