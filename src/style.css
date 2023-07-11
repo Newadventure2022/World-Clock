@@ -16,21 +16,22 @@ img {
   width: 100%;
 }
 footer {
-  color: white;
+  color: yellow;
   text-align: center;
   font-size: 20px;
-  margin-top: 2rem;
+  margin-top: 2em;
+  margin-bottom: 2em;
   position: relative;
   vertical-align: bottom;
 }
 footer a {
   text-decoration: none;
-  color: white;
+  color: yellow;
 }
 footer a:hover {
   text-decoration: none;
-  color: yellow;
-  transition: all 2s;
+  color: blue;
+  transition: all 1s;
 }
 .navbar {
   background-color: rgba(0, 0, 0, 0.6);
@@ -42,13 +43,16 @@ footer a:hover {
 
 .container {
   border-radius: 10px;
-  margin-top: 80px;
+  margin-top: 5em;
   text-align: center;
-  width: 900px;
-  height: 900px;
+  width: 800px;
+  height: 800px;
   padding-top: 20px;
 }
-
+.other-cities {
+  color: yellow;
+  margin-top: 15px;
+}
 #city {
   align-items: center;
   margin-top: 40px;
