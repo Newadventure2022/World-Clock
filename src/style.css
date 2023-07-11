@@ -5,13 +5,29 @@ body {
   background-attachment: fixed;
   background-size: 75%;
   background-color: #464646;
-  margin: 10px;
+}
+h1 {
+  color: white;
+  text-align: center;
 }
 
 img {
   width: 100%;
 }
-
+footer {
+  color: white;
+  text-align: center;
+  vertical-align: bottom;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer a:hover {
+  text-decoration: none;
+  color: yellow;
+  transition: all 2s;
+}
 .container {
   border-radius: 10px;
   margin: 25px auto;
