@@ -114,6 +114,7 @@ strong:hover {
 }
 @media (max-width: 460px) {
   h2 {
+    color: yellow;
     font-size: 18px;
   }
 }
