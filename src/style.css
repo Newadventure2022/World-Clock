@@ -5,13 +5,14 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color: #464646;
-  font-family: "Courier New", Courier, monospace;
-  font-weight: 600;
+  font-family: "monospace";
 }
 
 h1 {
+  margin-top: 5px;
   color: white;
-  font-size: 30px;
+  font-size: 40px;
+  font-weight: 500;
 }
 
 img {
@@ -37,6 +38,11 @@ footer a:hover {
   color: yellow;
   transition: all 1s;
 }
+strong:hover {
+  text-decoration: none;
+  color: yellow;
+  transition: all 1s;
+}
 
 .container {
   background-color: rgba(0, 0, 0, 0.4);
@@ -49,6 +55,12 @@ footer a:hover {
 .other-cities {
   color: white;
   margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+.flag {
+  vertical-align: middle;
 }
 #city {
   align-items: center;
@@ -56,7 +68,7 @@ footer a:hover {
   border-radius: 5px;
   color: black;
   font-size: 20px;
-  margin-top: 40px;
+  margin-top: 20px;
   padding: 10px;
   text-align: center;
   width: 100%;
