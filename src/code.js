@@ -1,6 +1,9 @@
 function showSelectedCity(event) {
   if (event.target.value.length > 0) {
     let cityZone = event.target.value;
+    if (cityZone === "here") {
+      cityZone = moment.tz.guess();
+    }
     let cityName = cityZone.replace("_", "").split("/")[1];
     let currentTime = moment()
       .tz(cityZone)
