@@ -1,11 +1,13 @@
 function showSelectedCity(event) {
   if (event.target.value.length > 0) {
+    let cityZone = event.target.value;
+    let cityName = cityZone.replace("_", "").split("/")[1];
     let currentTime = moment()
-      .tz(event.target.value)
+      .tz(cityZone)
       .format("dddd, MMMM D, YYYY h:mm[<small>]A[</small>]");
     let worldElement = document.querySelector("#world");
 
-    worldElement.innerHTML = `It is ${currentTime} in ${event.target.value}`;
+    worldElement.innerHTML = `It is ${currentTime} in ${cityName}`;
   }
 }
 
