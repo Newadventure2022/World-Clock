@@ -3,7 +3,7 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100%;
+  background-size: cover;
   background-color: #464646;
   font-family: "monospace";
 }
@@ -119,12 +119,17 @@ strong:hover {
   text-align: center;
   width: 100%;
 }
-
+@media (max-width: 600px) {
+  .container {
+    margin: 6em auto;
+  }
+}
 @media (max-width: 460px) {
   h2 {
     color: yellow;
     font-size: 20px;
   }
+
   .date {
     font-size: 20px;
   }
