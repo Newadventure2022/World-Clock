@@ -27,7 +27,7 @@
         <h1> World Clock</h1>
         <div>
             <form action="/submit">
-                <select id="city">
+                <select id="select">
                     <option value="">Select a City </option>
                     <option value="Europe/Paris">Paris 🇫🇷</option>
                     <option value="Asia/Tokyo">Tokyo 🇯🇵</option>
@@ -35,53 +35,65 @@
                 </select>
             </form>
         </div>
-        <div class="other-cities">
-            <div class="brisbane">
+        <div class="city" id="city">
+            <div id="brisbane">
                 <h2>
                     <span class="flag">
                         🇦🇺
                     </span>
                     Brisbane
                 </h2>
-                <div class="date/time">
-                    July 11, 2023 11:00pm
+                <div class="date">July 11, 2023
+                </div>
+                <div class="time"> 11:00 <small>
+                        pm
+                    </small>
                 </div>
             </div>
-            <div class="san-jose">
+            <div id="los-angeles">
                 <h2>
                     <span class="flag">
                         🇺🇸
                     </span>
-                    San Jose
+                    Los Angeles
                 </h2>
-                <div class="date/time">
-                    July 11, 2023 11:00pm
+                <div class="date">July 11, 2023
                 </div>
-
+                <div class="time"> 11:00 <small>
+                        pm
+                    </small>
+                </div>
             </div>
-            <div class="dublin">
+            <div id="dublin">
                 <h2>
                     <span class="flag">
                         🇮🇪
                     </span>
                     Dublin
                 </h2>
-                <div class="date/time">
-                    July 11, 2023 11:00pm
+                <div class="date">July 11, 2023
+                </div>
+                <div class="time"> 11:00 <small>
+                        pm
+                    </small>
                 </div>
             </div>
-            <div class="valencia">
+            <div id="valencia">
                 <h2>
                     <span class="flag">
                         🇪🇸
                     </span>
                     Valencia
                 </h2>
-                <div class="date/time">
-                    July 11, 2023 11:00pm
+                <div class="date">July 11, 2023
+                </div>
+                <div class="time"> 11:00<small>
+                        pm
+                    </small>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <footer>
         Coded by <strong>Corona-Doran</strong> 👩🏽‍💻 and open sourced on <a
