@@ -48,15 +48,15 @@ function updateTime() {
     "h:mm:ss[<small>]A[</small>]"
   );
 
-  //Valencia
-  let valenciaElement = document.querySelector("#valencia");
-  let valenciaDateElement = valenciaElement.querySelector(".date");
-  let valenciaTimeElement = valenciaElement.querySelector(".time");
-  let valenciaTime = moment().tz("Europe/Valencia");
+  // Johannesburg
+  let johannesburgElement = document.querySelector("#johannesburg");
+  let johannesburgDateElement = johannesburgElement.querySelector(".date");
+  let johannesburgTimeElement = johannesburgElement.querySelector(".time");
+  let johannesburgTime = moment().tz("Africa/Johannesburg");
 
-  valenciaDateElement.innerHTML = valenciaTime.format("MMMM, D, YYYY");
+  johannesburgDateElement.innerHTML = johannesburgTime.format("MMMM, D, YYYY");
 
-  valenciaTimeElement.innerHTML = valenciaTime.format(
+  johannesburgTimeElement.innerHTML = johannesburgTime.format(
     "h:mm:ss[<small>]A[</small>]"
   );
 }
