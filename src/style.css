@@ -115,6 +115,12 @@ strong:hover {
 @media (max-width: 460px) {
   h2 {
     color: yellow;
-    font-size: 18px;
+    font-size: 20px;
+  }
+  .date {
+    font-size: 20px;
+  }
+  .time {
+    font-size: 25px;
   }
 }
