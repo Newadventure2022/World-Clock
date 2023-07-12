@@ -41,6 +41,7 @@ h3 {
   font-size: 30px;
   margin-top: 10px;
 }
+
 small {
   font-size: 20px;
 }
@@ -50,8 +51,8 @@ footer {
   border-radius: 5px;
   color: white;
   text-align: center;
-  font-size: 15px;
-  margin: 3em auto;
+  font-size: 20px;
+  margin: 0 auto;
   max-width: 600px;
   position: relative;
   vertical-align: bottom;
@@ -62,12 +63,12 @@ footer a {
 }
 footer a:hover {
   text-decoration: none;
-  color: yellow;
+  color: rgb(255, 230, 0);
   transition: all 1s;
 }
 strong:hover {
   text-decoration: none;
-  color: yellow;
+  color: rgb(255, 230, 0);
   transition: all 1s;
 }
 
@@ -86,6 +87,9 @@ strong:hover {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
 }
+.globes {
+  font-size: 40px;
+}
 .flag {
   vertical-align: middle;
   font-size: 40px;
@@ -100,7 +104,10 @@ strong:hover {
   font-size: 35px;
   opacity: 0.9;
 }
-
+.coder {
+  vertical-align: middle;
+  font-size: 30px;
+}
 #select {
   align-items: center;
   background-color: yellow;
