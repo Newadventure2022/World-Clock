@@ -27,6 +27,12 @@ h1 {
 h2 {
   line-height: 1;
 }
+h3 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  margin-top: 10px;
+}
 small {
   font-size: 20px;
 }

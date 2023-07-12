@@ -2,9 +2,10 @@ function showSelectedCity(event) {
   if (event.target.value.length > 0) {
     let currentTime = moment()
       .tz(event.target.value)
-      .format("dddd, MMMM D, YYYY h:mm A");
+      .format("dddd, MMMM D, YYYY h:mm[<small>]A[</small>]");
+    let worldElement = document.querySelector("#world");
 
-    alert(`It is ${currentTime} in ${event.target.value}`);
+    worldElement.innerHTML = `It is ${currentTime} in ${event.target.value}`;
   }
 }
 
