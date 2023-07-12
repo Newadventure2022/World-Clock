@@ -4,7 +4,7 @@ function showSelectedCity(event) {
     if (cityZone === "here") {
       cityZone = moment.tz.guess();
     }
-    let cityName = cityZone.replace("_", "").split("/")[1];
+    let cityName = cityZone.replace("_", " ").split("/")[1];
     let currentTime = moment()
       .tz(cityZone)
       .format("dddd, MMMM D, YYYY h:mm[<small>]A[</small>]");
