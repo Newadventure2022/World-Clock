@@ -87,6 +87,7 @@ strong:hover {
   min-height: 550px;
   padding: 20px;
 }
+
 .form {
   margin-bottom: 30px;
 }
@@ -117,6 +118,10 @@ strong:hover {
 .coder {
   vertical-align: middle;
   font-size: 30px;
+}
+#message {
+  color: white;
+  font-size: 15px;
 }
 #select {
   align-items: center;

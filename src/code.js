@@ -8,8 +8,11 @@ function showSelectedCity(event) {
     let currentTime = moment()
       .tz(cityZone)
       .format("dddd, MMMM D, YYYY h:mm[<small>]A[</small>]");
+
+    let messageElement = document.querySelector("#message");
     let worldElement = document.querySelector("#world");
 
+    messageElement.innerHTML = `↑Click above to return home↑`;
     worldElement.innerHTML = `It is ${currentTime} in ${cityName}`;
   }
 }
