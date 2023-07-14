@@ -128,15 +128,15 @@ strong:hover {
 }
 @media (max-width: 600px) {
   header {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.3);
   }
   .container {
     margin: 0;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.3);
     border-radius: 0;
   }
   footer {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.3);
     border-radius: 0;
   }
 }
