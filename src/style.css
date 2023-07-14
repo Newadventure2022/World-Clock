@@ -8,6 +8,12 @@ body {
   font-family: "monospace";
 }
 
+header {
+  color: rgb(109, 108, 108);
+  display: inline-block;
+  width: 100%;
+  height: 100px;
+}
 h1,
 h2,
 h3,
@@ -73,6 +79,7 @@ strong:hover {
 }
 
 .container {
+  display: inline-flexbox;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   margin: 8em auto;
@@ -120,8 +127,18 @@ strong:hover {
   width: 100%;
 }
 @media (max-width: 600px) {
+  header {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: rgb(72, 70, 70);
+  }
   .container {
-    margin: 6em auto;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0;
+  }
+  footer {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0;
   }
 }
 @media (max-width: 460px) {
